@@ -1,0 +1,18 @@
+/***Empieza nav***/
+.navbar{
+    background-color: $bg-black;
+
+    div a img{
+        width: 8.50em;
+    }
+    div .navbar-nav .nav-link{
+        color: $white;
+    }
+
+    .navbar-nav .nav-link:hover{
+        color: #700370;
+        transition: .4s;
+        cursor: pointer;
+    }
+}
+/***Termina nav***/

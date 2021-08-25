@@ -1,0 +1,44 @@
+/**Variables colores**/
+/**Variable fuentes**/
+/**Defino fuentes**/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+/**Valores generales **/
+* {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+body {
+  background-color: #f5f5f5e1; }
+
+p {
+  font-size: 1rem; }
+
+.textUnderline {
+  text-decoration: underline #700370; }
+
+.bg-skins {
+  background-color: #e5e2e2; }
+
+/**Termina valores generales**/
+/***Empieza nav***/
+.navbar {
+  background-color: black; }
+  .navbar div a img {
+    width: 8.50em; }
+  .navbar div .navbar-nav .nav-link {
+    color: white; }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #700370;
+    transition: .4s;
+    cursor: pointer; }
+
+/***Termina nav***/
+/****Index****/
+/***Informacion del sitio***/
+.textInfo {
+  color: #700370;
+  font-weight: 600; }
+
+/***Skins mas buscadas ***/
+/*** Footer ***/
+footer {
+  background-color: black; }

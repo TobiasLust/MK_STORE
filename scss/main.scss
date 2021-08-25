@@ -1,0 +1,23 @@
+@import "_variables.scss";
+@import "_fonts.scss";
+/**Valores generales **/
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-color: #f5f5f5e1;
+}
+p{
+    font-size: $fontP;
+}
+.textUnderline{
+    text-decoration: underline $pink;
+}
+.bg-skins{
+    background-color: $bgSkins;
+}
+
+/**Termina valores generales**/
+@import "_nav.scss";
+@import "_index";
+@import "_footer.scss";
