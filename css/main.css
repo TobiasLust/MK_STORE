@@ -39,6 +39,16 @@ p {
   font-weight: 600; }
 
 /***Skins mas buscadas ***/
+/****Tienda****/
+/***Skins***/
+main .card {
+  background-color: #f5f5f5e1;
+  padding: .5em; }
+  main .card img {
+    padding: 1em;
+    border-radius: 3px;
+    box-shadow: 0 0 6px 0 #700370; }
+
 /*** Footer ***/
 footer {
   background-color: black; }

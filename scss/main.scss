@@ -5,7 +5,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 body{
-    background-color: #f5f5f5e1;
+    background-color: $bg-body;
 }
 p{
     font-size: $fontP;
@@ -20,4 +20,5 @@ p{
 /**Termina valores generales**/
 @import "_nav.scss";
 @import "_index";
+@import "_store";
 @import "_footer.scss";

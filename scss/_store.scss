@@ -1,0 +1,12 @@
+/****Tienda****/
+/***Skins***/
+main .card{
+    background-color: $bg-body;
+    padding: .5em;
+
+    img{
+        padding: 1em;
+        border-radius: 3px;
+        box-shadow: 0 0 6px 0 #700370;
+    }
+}
