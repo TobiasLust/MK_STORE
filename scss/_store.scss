@@ -4,9 +4,41 @@ main .card{
     background-color: $bg-body;
     padding: .5em;
 
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        text-decoration: underline $pink;
+    }
+
     img{
-        padding: 1em;
+        padding: 1.5em;
         border-radius: 3px;
         box-shadow: 0 0 6px 0 #700370;
+        cursor: pointer;
     }
 }
+/***nav tienda***/
+.input{
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid $pink;
+    cursor: pointer;
+    width: 9.5em;
+    margin-bottom: 1em;
+}
+.titulo-tienda{
+    color: $pink;
+}
+.tienda-links{
+    text-decoration: none;
+    color: grey;
+}
+.tienda-links:hover{
+    text-decoration: underline $pink;
+    color: grey;
+}
+/****Termina tienda****/
+        

@@ -3,6 +3,7 @@
 /**Valores generales **/
 *{
     font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
 }
 body{
     background-color: $bg-body;
@@ -15,6 +16,11 @@ p{
 }
 .bg-skins{
     background-color: $bgSkins;
+}
+.btn{
+    color: white;
+    background-color: $pink;
+    
 }
 
 /**Termina valores generales**/
